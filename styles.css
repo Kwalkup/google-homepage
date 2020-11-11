@@ -1,4 +1,156 @@
-#Google {
+#google {
     margin: 0%;
-    padding: 0%;
+}
+
+#main {
+    display: block;
+    margin-top: 160px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 525px;   
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+#user-bar-right {
+    text-align: end;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    color: rgb(34, 34, 34);
+}
+
+#user-bar-left {
+    text-align: start;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    color: rgb(34, 34, 34);
+}
+
+#google-logo {
+    display: block;
+    margin: auto;
+}
+
+#search-bar {
+    margin: 25px 0 30px -15px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 575px;
+    border-radius: 50px;
+    border-width: 1px;
+    border-style: solid;
+    opacity: 50%;
+}
+
+#search-bar:hover {
+    filter: drop-shadow(0px 0px 3px silver); 
+}
+
+#google-search {
+    margin: 3px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(95, 99, 104);
+    background-color: rgb(242, 242, 242);
+    border-radius: 5px;
+    border: 1px solid transparent;
+    font-family: arial, sans-serif;
+    width: 150px;
+}
+
+#lucky {
+    margin: 3px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(95, 99, 104);
+    background-color: rgb(242, 242, 242);
+    border-radius: 5px;
+    border: 1px solid transparent;
+    font-family: arial, sans-serif;
+    width: 150px;
+}
+
+#google-search:hover {
+    border: solid;
+    border-width: 1px;
+}
+
+#lucky:hover {
+    border: solid;
+    border-width: 1px;
+}
+
+#sign-in {
+    background-color: dodgerblue;
+    color: ghostwhite;
+    padding: 5px 8px 5px 8px ;
+    border-color: rgba(0, 0, 0, 0);
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: arial, sans-serif;
+}
+
+#bottom-links {
+    position: absolute;
+    width: 100%;
+    background-color: rgb(242, 242, 242);
+    color: rgba(0, 0, 0, 0.54);
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    padding: 13px 0px 13px 0px;
+    border-top: solid;
+    border-top-color: rgb(228, 228, 228);
+    border-top-width: 1px;
+    bottom: 0%;
+}
+
+#left {
+    position: absolute;
+}
+
+#right {
+    text-align: end;
+}
+
+.user-links {
+    margin-right: 10px;
+    text-decoration: none;
+    color: rgb(34, 34, 34);
+}
+
+.user-links:hover {
+    text-decoration: underline;
+}
+
+.left-links {
+    margin-left: 30px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.left-links:hover {
+    margin-left: 30px;
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.right-links {
+    margin-right: 30px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.right-links:hover {
+    margin-right: 30px;
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 0.54);
 }
